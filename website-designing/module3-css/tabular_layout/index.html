@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>samples prototype of flipkart</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/font-awesome.min.css'>
+    <script src='https://code.jquery.com/jquery-3.6.2.min.js'></script>
+    <script src="https://malsup.github.io/jquery.cycle.all.js"></script>
+    <script>
+        $(document).ready(function(){
+            // $("#slide").cycle("fade");
+            // $("#slide").cycle("turnLeft");
+            // $("#slide").cycle("turnRight");
+            // $("#slide").cycle("zoom");
+            // $("#slide").cycle("shuffle");
+
+            $("#slide").cycle("turnRight,shuffle,turnLeft,turnRight,zoom");
+            // load account 
+            $("#login").click(function(){
+
+                $(".account").slideToggle(500);
+          
+            })
+        })
+
+
+    </script>
+</head>
+<body>
+    <!-- header start here -->
+    <div class="flipkart-header header">
+        <!-- logo -->
+        <div class="flipkart-logo">
+            <img src="images/logo.png" alt="my-logo" title="logo sale on 50%">
+        </div>
+        <!-- search box -->
+        <div class="flipkart-searchbox">
+            <input type="text" name="search" placeholder="Search anyproducts here!!">
+        </div>
+       <!-- social media -->
+       <div class="flipkart-social-media">
+        <a href="https://www.facebook.com" target="_blank"><span class="fa fa-facebook-official"></span></a>
+        <span class="fa fa-instagram"></span>
+        <span class="fa fa-whatsapp"></span>
+        <a href="https://www.youtube.com" target="_blank"><span class="fa fa-youtube-square"></span></a>
+        <span class="fa fa-twitter"></span>
+       </div>
+
+    </div>
+    <!-- header navbar here -->
+    <div class="flipkart-navbar navbar nav">
+        <ul class="navbar-link">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="">Furnitures</a></li>
+            <li><a href="">Jwellery</a></li>
+            <li><a href="">Clothes</a></li>
+            <li><a href="">Kitchenware</a></li>
+            <li><a href="">Electronics</a></li>
+            <li><a href="">OfferZone</a></li>
+            <li><a href="#" id="login">Account</a></li>
+            <li><a href="contactus.html">Contactus</a></li>
+            <li><a href="">services</a></li>
+        </ul>
+    </div>
+    <!-- header hero section or banner or slider here -->
+    <div class="flipkart-slider hero-section banner">
+
+        <div id="slide">
+            <img src="images/slider1.jpg">
+            <img src="images/slider2.jpg">
+            <img src="images/slider3.jpg">
+        </div>
+
+
+    </div>
+    <!-- content start here -->
+    <div class="flipkart-content content">
+        <div class="advertisement">
+        <div class="content-prod"></div>
+        <div class="content-adv"></div>
+        </div>
+
+        <div class="content-prod1"></div>
+        <div class="content-prod1"></div>
+        <div class="content-prod1"></div>
+        <div class="content-prod1"></div>
+        <div class="content-prod1"></div>
+        <div class="content-prod1"></div>
+        <div class="content-prod1"></div>
+        <div class="content-prod1"></div>
+    </div>
+    <!-- footer start here -->
+    <div class="flipkart-footer footer">
+     <div class="footer-navbar">
+        <ul>
+            <li><a href="#"><h4>About</h4></a></li>
+            <li><a href="#">ContactUs</a></li>
+            <li><a href="#">AboutUs</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Flipkart wholesale</a></li>
+            <li><a href="#">Stores</a></li>
+            <li><a href="#">Press</a></li>
+        </ul>
+     </div>
+     <div class="footer-navbar">
+        <ul>
+            <li><a href="#"><h4>Help</h4></a></li>
+            <li><a href="#">ContactUs</a></li>
+            <li><a href="#">AboutUs</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Flipkart wholesale</a></li>
+            <li><a href="#">Stores</a></li>
+            <li><a href="#">Press</a></li>
+        </ul>
+     </div>
+
+     <div class="footer-navbar">
+        <ul>
+            <li><a href="#"><h4>Policy</h4></a></li>
+            <li><a href="#">ContactUs</a></li>
+            <li><a href="#">AboutUs</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Flipkart wholesale</a></li>
+            <li><a href="#">Stores</a></li>
+            <li><a href="#">Press</a></li>
+        </ul>
+     </div>
+
+     <div class="footer-navbar">
+        <ul>
+            <li><a href="#"><h4>Social</h4></a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Youtube</a></li>
+            <li><a href="#">Whatsapp</a></li>
+            <li><a href="#">twitter</a></li>
+          
+        </ul>
+     </div>
+    <div class="horz-line"></div>
+
+    <div class="footer-navbar">
+        <ul>
+            <li><a href="#"><h4>Mail us</h4></a></li>
+            <li><a href="">Flipkart Internet Private Limited,<br>
+                Buildings Alyssa, Begonia &<br>
+                Clove Embassy Tech Village,<br>
+                Outer Ring Road, Devarabeesanahalli Village,<br>
+                Bengaluru, 560103,
+                Karnataka, India
+                </a></li>
+          
+        </ul>
+    </div>
+
+
+
+    
+    <div class="footer-navbar">
+        <ul>
+            <li><a href="#"><h4>Mail us</h4></a></li>
+            <li><a href="">Flipkart Internet Private Limited,<br>
+                Buildings Alyssa, Begonia &<br>
+                Clove Embassy Tech Village,<br>
+                Outer Ring Road, Devarabeesanahalli Village,<br>
+                Bengaluru, 560103,
+                Karnataka, India
+                </a></li>
+          
+        </ul>
+    </div>
+</div>
+<!-- login load here  -->
+<div class="account">
+    <h1 align="center">Login Form</h1>
+    <form method="post" action="mail.php">
+      
+        <input type="text" name="email" placeholder="Email *" required>
+        <br><br>
+        <input type="password" name="pass" placeholder="password *" required>
+        <br><br>
+     
+        <input type="submit" name="sub" value="Login">
+        <a href="">Forget Password</a>
+        <br><br>
+        <b>Dont have an account ?<a href="">Create account</a></b>
+        
+    </form>
+</div>
+</body>
+</html>

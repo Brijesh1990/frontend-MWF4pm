@@ -1,0 +1,20 @@
+@font-face
+{
+    src: url('../fonts/GiftOfChristmas_PERSONAL_USE_ONLY.otf');
+    font-family: raj;
+}
+@font-face
+{
+    src: url('../fonts/NexaRustScriptL-0.otf');
+    font-family: raj1;
+}
+body 
+{
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: raj;
+}
+
+.content p 
+{
+    font-family: raj1 !important;
+}

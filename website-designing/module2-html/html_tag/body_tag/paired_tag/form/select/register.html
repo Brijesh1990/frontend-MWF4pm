@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body 
+        {
+            background-color: lightgray;
+        }
+        fieldset
+        {
+            width: 60%;
+            height: auto;
+            margin: auto;
+            background-color: aquamarine;
+            border: dashed 2px black;
+        }
+        legend 
+        {
+            color: brown;
+        }
+        label
+        {
+            color: brown;
+            text-align: justify !important;
+        }
+        form 
+        {
+            width: 90%;
+            height: auto;
+            margin: auto;
+            background-color: aquamarine;
+        }
+        input,select,textarea
+        {
+            width: 200px;
+            border: none;
+            border-bottom: solid 2px black;
+        }
+        input[type="submit"]
+        {
+            width:130px;
+            height: 25px;
+            border: none;
+            background-color: green;
+            color: white;
+        }
+        
+        input[type="reset"]
+        {
+            width:130px;
+            height: 25px;
+            border: none;
+            background-color: red;
+            color: white;
+        }
+        ::placeholder 
+        {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+  
+        <fieldset>
+            <legend align="center">Register Form</legend>
+            <form name="frm" method="post" id="frm" width="" height="" enctype="multipart/form-data" action="welcome.html">
+            <label>Enter email *</label>
+            <input type="text" name="email" placeholder="Enter email *" required> <br><br>
+            <label>Enter Password *</label>
+            <input type="password" name="pass" placeholder="Enter password *" required> <br><br>
+            <label>Enter Confirm-Password *</label>
+            <input type="password" name="cpass" placeholder="Enter Confirme password *" required> <br><br>
+
+            <label>Upload photo *</label>
+            <input type="file" name="image"  required> <br><br>
+            <label>DOB *</label>
+            <input type="date" name="dob" placeholder="DOB"  required> <br><br>
+
+            <label>Gender *</label>
+            Male :<input type="radio" name="gender" value="male" style="width: auto; height: auto;">
+            Female :<input type="radio" name="gender" value="female" style="width: auto; height: auto;"> <br><br>
+            
+            <label>Select Hobby *</label>
+            Reading :<input type="checkbox" name="hobby" value="reading" style="width: auto; height: auto;">
+            Writing :<input type="checkbox" name="hobby" value="writing" style="width: auto; height: auto;">
+            Playing :<input type="checkbox" name="hobby" value="playing" style="width: auto; height: auto;">
+            Cooking :<input type="checkbox" name="hobby" value="cooking" style="width: auto; height: auto;">
+            <br><br>
+            
+            <label>Address *</label>
+            <textarea name="address" placeholder="Address *"  required cols="28" rows="4"></textarea> <br><br>
+            <label>select state *</label>
+            <select name="state">
+                <option value="">-select state-</option>
+                <option value="1">Gujrat</option>
+                <option value="2">Uttar pradesh</option>
+                <option value="3">Rajsathan</option>
+            </select>
+            <br><br>
+            <input type="submit" name="log" value="Register"> 
+            <input type="reset" name="reset" value="Reset"> <br><br>
+           
+             <b>Already have account ?<a href="form.html">Login Here</a></b>     
+         
+        </form>
+        </fieldset>
+
+    
+</body>
+</html>
